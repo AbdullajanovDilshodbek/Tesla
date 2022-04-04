@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: san-serif;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    /* display: grid; => place_items: center; ishlashi uchun yoziladi */
+    place-items: center;
+    /* place-items: center; => bo`yiga va eniga rasmni o`rtaga oladi */
+}
+
+img{
+    filter: brightness(100%);
+    /* boshlang`ich = 100% brightness => rasmni yorqinlashtiradi */
+    filter: saturate(100%);
+    /* boshlang`ich = 100% saturate => rasmdagi qizg`ish va sarg`ish ranglarni yorqinlashtiradi */
+    filter: blur(100px);
+    /* boshlang`ich = 0px blur => rasmni xiralashtiradi */
+    filter: opacity(1);
+    /* boshlang`ich = 1 opacity => rasmni ko`rinish darajasini bajaradi */
+    filter: sepia(100%);
+    /* boshlang`ich = 0 sepia => rasmni ko`rinishini sarg`aytiradi */
+    filter: invert(100%);
+    /* boshlang`ich = 0 invert => rasmni rentgenga o`xshatib qo`yadi */
+    filter: hue-rotate(200deg);
+    /* boshlang`ich = 0 hue-rotate => rasmdagi ranglar jamlanmasini o`zgartiradi */
+    filter: grayscale(0);
+    /* boshlang`ich = 0 grayscale => rasmni oq-qora qilib beradi */
+    filter: contrast(100%);
+    /* boshlang`ich = 100% contrast => rasmni ochiq va toq ranglarini yorqinlashtiradi */
+}
